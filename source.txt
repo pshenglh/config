@@ -2,5 +2,9 @@ pip install:
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
 
+pip config
+path ~/.pip/pip.conf
+
 vim install:
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
