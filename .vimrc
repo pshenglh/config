@@ -13,6 +13,7 @@ call vundle#end()
 filetype plugin indent on
 
 set t_Co=256
+:set foldmethod=indent
 :set tabstop=4
 :set softtabstop=4
 :set shiftwidth=4
